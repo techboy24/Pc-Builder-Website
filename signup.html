@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link rel="icon" href="images/logo1.png">
+	<link rel="stylesheet" type="text/css" href="css/page1.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">  
+	<link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet" type="text/css"> 
+</head>
+<style>
+	form{
+		font-family: 'Kodchasan', sans-serif;
+	}
+</style>
+<body>
+		<div class="animatebottom">
+		
+	<header id="header" >
+		<h1 align="center">BUILD YOUR PC</h1>
+		<nav>
+		<ul style="list-style-type: none">
+			<li><a href="index.html"><img src="images/back.png"/>Home</a></li>
+		</ul>
+	</nav>
+	</header>
+
+	<form action="php/phpmail.php" method="POST">
+	<div id="formbox">
+	<h3 align="center">Sign Up</h3>
+	<p style="font-size:150%;">Quick Contact</p>
+	<hr>
+
+		<div id="m_hide">
+		<label for="fullname"><b>What is your Name? </b></label>
+		<input style="outline: none;background: transparent; border: 0;margin-left: 20em;border-bottom: 1px solid  black; -webkit-text-fill-color: black;" type="text" name="fullname" placeholder="Full Name" required> <br/><br/>
+
+		<label for="userid"><b>What shall we call you?</b></label>
+		<input style="outline: none;background: transparent; border: 0;margin-left: 20em;border-bottom: 1px solid  black; -webkit-text-fill-color: black;"  type="text" name="userid" placeholder="Userid" required><br/><br/>
+
+		<label for="eid"><b>Enter Your Email Id </b></label>
+		<input style="outline: none;background: transparent; border: 0;margin-left: 20em;border-bottom: 1px solid  black; -webkit-text-fill-color: black;"  type="email" name="eid" placeholder="Email Id" required><br/><br/>
+
+		<label for="passwd"><b>Choose your password </b></label>
+		<input  style="outline: none;background: transparent; border: 0;margin-left: 20em;border-bottom: 1px solid  black; -webkit-text-fill-color: black;" id="pass1" type="password" name="passwd" placeholder="Maximum 8 characters" maxlength="8" required><br/><br/>
+
+		<label for="rpasswd"><b>Make sure you don't Forget</b></label>
+		<input style="outline: none;background: transparent; border: 0;margin-left: 20em;border-bottom: 1px solid  black; -webkit-text-fill-color: black;" id="pass2" type="password" name="rpasswd" onchange="myFunction()" placeholder="Confirm Password" maxlength="8" required ><br/><br/>
+		<p>By creating an account you agree to our <a href="#" style="color:#082d52;">Terms & Privacy</a>.</p>
+
+
+	</div>
+  <center><input type="submit" id="passbut" style="display:none" class="m_mybutton button1 "></center>
+  <center><input type="reset" id="rebut"name="Reset" value="Reset" class="m_mybutton button1"></td></center>
+
+  
+	<script>
+			function myFunction() {
+				var pass1 = document.getElementById("pass1").value;
+       			 var pass2 = document.getElementById("pass2").value;
+					if(pass1!=pass2)
+					{
+						alert("Password Do Not Match");
+						document.getElementById("passbut").style.display = "none";
+					}
+					else
+					{
+						document.getElementById("passbut").style.display = "block";
+					}
+					
+					
+			}
+			</script>
+			
+	</form>
+</div>
+
+</body>
+</html>

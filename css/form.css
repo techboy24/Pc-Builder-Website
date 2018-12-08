@@ -1,0 +1,81 @@
+#formbox
+{
+	background-color: rgba(236,206,67,0.8);
+	color: #000000;
+	display: block;
+	width:60%;
+	font-size: 50%;
+	text-align: left;
+	margin: 0.5%;
+	padding: 1%;
+	position:fixed;
+	top:20%;
+	left:20%;
+	align-content: center;
+	text-align: center;
+
+}
+.m_mybutton {
+	background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+	cursor: pointer;
+	width:30%;
+	border-radius: 14px;
+-webkit-border-radius: 14px;
+-moz-border-radius: 14px;
+}
+
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #555555;
+}
+
+.button1:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
+
+
+#m_unhide
+{
+	display: none;
+}
+img
+{
+	display: inline-block;
+	width :10%;
+	height: 5%;
+}
+form
+{
+	clear: both;
+	text-align: center;
+
+}
+h3
+{
+	font-size: 200%;
+}
+hr
+ {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+label
+{
+	position: absolute;
+}
+
+

@@ -1,0 +1,48 @@
+body
+{
+	background-color: black;
+	color: white;
+}
+#photo
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 160px;
+    background: url("../images/1.jpg") no-repeat;
+    margin: 5px;
+
+    border-color: yellow;
+    border-width: 12px;
+    border-style: solid;
+    animation-name: gallery;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+
+}
+/*img
+{
+	animation-name: gallery;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}*/
+@keyframes gallery
+{
+	25%
+	{
+		background: url("../images/1.jpg") no-repeat;
+	}
+	50%
+	{
+		background: url("../images/11.jpg") no-repeat;
+	}
+	75%
+	{
+		background: url("../images/111.jpg") no-repeat;
+	}
+	100%
+	{
+		background: url("../images/1111.png") no-repeat;
+	}
+}

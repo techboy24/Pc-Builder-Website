@@ -1,0 +1,155 @@
+#session_print
+{
+	color:white;
+	position:fixed;
+}
+
+body
+{
+	font-size: 200%;
+	font-family: fantasy;
+	text-shadow: 12.5% 12.5%;
+	color: #ee9209;
+	background: url("../images/2.jpg"); 
+	line-height: 75%;
+	font-family: Verdana, sans-serif;
+
+}
+
+hr
+{
+	clear: both;
+}
+#loader
+		{
+			display: inline-block;
+			height: 50px;
+			width: 50px;
+			background-color: #ffffff;
+			border-width: 16px;
+			border-style: solid;
+			border-color: #000000;
+			border-radius: 50%;
+			left:50%;
+			top:50%; 
+			position: absolute;
+			z-index: 1;
+			animation-name: spin;
+			animation-duration: 0.5s;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+
+		}
+
+		@keyframes spin
+		{
+			0%{
+				transform: rotate(0deg);
+				background-color: #ff0000;
+			}
+			50%
+			{
+				transform: rotate(180deg);
+				background-color: #00ff00;
+			}
+			100%
+			{
+				transform: rotate(360deg);
+				background-color: #0000ff;
+			}
+		}
+		.animatebottom
+		{
+			position: relative;
+			animation-name: animatefbottom;
+			animation-duration: 1.5s;
+		}
+		@keyframes animatefbottom
+		{
+			from{
+				bottom: -100px;
+				opacity: 0;
+			}
+			to{
+				bottom:0;
+				opacity: 1;
+			}
+		}
+
+		#mydiv
+		{
+			display: none;
+			text-align: center;
+		}
+
+
+
+header a
+{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+
+	background-color: rgba(255,255,255,0.3);
+	box-sizing: border-box;
+	padding: 1%;
+	margin:0 auto;
+
+	overflow: auto;
+	-o-border-radius :10%;
+	-moz-border-radius :10%;
+	-webkit-border-radius: 10%;
+	-ms-border-radius:10%;
+	border-radius:10%;
+}  
+.active
+{
+	background-color: #4b4f4e80;
+}
+h1
+{
+
+	clear: both;
+	text-align: center;
+	margin: 2%;
+	text-transform: uppercase;
+}
+h2
+{
+	font-size: 150%;
+	text-align: center;
+	color:#ebc183;
+	clear: both;
+}
+
+li a 
+{
+	text-align: center;
+    display: inline-block;
+    border: solid transparent;
+    background: url(images/paper1.jpg); 
+    height: 5%;
+	width: 18%;
+	margin:0.5%;
+	float: left;
+}
+
+
+
+li a:hover:not(.active) 
+{
+    transition: width 1s;
+    animation-name: example;
+    animation-duration: 3s;
+}
+li a:hover
+{
+	width:22.5%;
+}
+@keyframes example {
+    0%   {background-color: #c4b2964d;}
+
+
+    100% {background-color: #e3941b4d;}
+}

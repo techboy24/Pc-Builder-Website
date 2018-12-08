@@ -1,0 +1,133 @@
+.animations {
+  font-family: 'Alfa Slab One', cursive;  
+  font-size:6rem;
+  /*background:#2c333a; */
+}
+.a
+{
+  width:80%;
+  margin:4rem auto;
+  text-align:center;
+  perspective: 800px;
+}
+
+
+.spantag span{
+
+
+
+
+   display:inline-block;
+   margin-left: -20px;
+   color:#77c6bc;
+   transform-origin: 50% 70%;
+   margin-top: 110px;
+
+   position: relative;
+  /*float: none;    */
+}
+
+
+.spantag span:nth-child(2n+1) {
+  color:#95b8cb;
+  opacity: 0;
+  
+}
+
+.spantag span:nth-child(1) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both;
+  margin-left: -50px;
+}
+
+.spantag span:nth-child(2) {
+  
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both;
+ 
+}
+
+.spantag span:nth-child(3) {
+ 
+ animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .4s both;
+}
+
+.spantag span:nth-child(4) {
+ animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .6s both;
+ 
+}
+
+.spantag span:nth-child(5) {
+  margin-right:40px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+ }
+
+.spantag span:nth-child(6) {
+  margin-left:-40px;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both;
+   
+}
+
+.spantag span:nth-child(7) { 
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.2s both;
+
+}
+.spantag span:nth-child(8) { 
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.4s both;
+  
+}
+.spantag span:nth-child(9) { 
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+.spantag span:nth-child(10) { 
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.8s both;
+ 
+}
+
+.sprite
+{
+  width: 534px;
+  height: 456px;
+  display: block;
+  background: transparent url(PCcabinetSlideshow.png) 0 0 no-repeat;
+  margin: 3em auto;
+  animation: cabinet 2s steps(20) infinite;
+  float:bottom;
+  margin-top: -50px;
+  margin-left: 630px;
+  animation-play-state: paused;
+  position: relative;
+  /*float: none;  */
+}
+.sprite:hover
+{
+  animation-play-state: running;
+}
+.sprite:click
+{
+  
+}
+@keyframes cabinet
+{
+  0%
+  {
+    background-position: 0 -0px;
+  }
+  100%
+  {
+    background-position: 0 -9105px;
+  }
+}
+
+@keyframes flipUp {
+  0% {transform: rotateX(90deg);}
+  0.005% {tranform: rotateX(0deg);
+    opacity: 1;}
+   
+  99.995%
+  {
+    animation-delay: 3.5s;
+    bottom: -100px;
+        opacity: 0.5;
+  }
+  100%  {animation-delay: 4s;
+    opacity: 0;}
+}

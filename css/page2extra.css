@@ -1,0 +1,116 @@
+
+article div
+{
+	color: #ffffff;
+	line-height: 1.5;
+	display: inline-block;
+	width:50%;
+	height: 100%;
+
+}
+#m_photocontainer1
+{
+	background-image: url(../images/pc1.jpg);
+	background-position: 0% -113px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+#wpc1
+{
+	display: inline-block;
+	width: 60%;
+	height: 35rem;
+	background-color: white;
+	color: black;
+	float: left;
+	clip-path: circle(62%);
+}
+#m_photocontainer2
+{
+	background-image: url(../images/pc2.jpg);
+	background-position: 0% -113px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#wpc2
+{
+	display: inline-block;
+	width: 60%;
+	height: 35rem;
+	background-color: white;
+	color: black;
+	float: right;
+	clip-path: circle(62%);
+}
+#m_photocontainer3
+{
+	background-image: url(../images/pc3.jpg);
+	background-position: 0% -113px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#wpc3
+{
+	display: inline-block;
+	width: 60%;
+	height: 45rem;
+	background-color: white;
+	color: black;
+	float: left;
+	clip-path: circle(63%);
+	 margin-bottom: 2%;
+}
+article
+{
+	align-content: center;
+	text-align: center;
+	vertical-align: center;
+}
+.m_link
+{
+	display: inline-block;
+    position: relative;
+    margin: 10%;
+    text-decoration: none;
+    border-color: #B35A00;
+    background-color: #f78c1b;
+    background: linear-gradient(to bottom, #3aadfe, #050538);
+    color: #ffffff;
+   	width: 30%;
+   	height: 5%;
+    border-radius: 10%;
+    font-size: 80%;
+    padding: 15px 1em;
+    text-transform: uppercase;
+    line-height: 1;
+    font-stretch: condensed;
+    text-align: center;
+    vertical-align: middle;
+    clear:both;
+}
+hr
+{
+	width: 20%;
+	height: 1%;
+	background-color: #e3941b;
+	border-radius: 50%;
+}

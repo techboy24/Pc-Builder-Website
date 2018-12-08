@@ -1,0 +1,23 @@
+#m_register
+{
+
+    width: 50%;
+    height: 50%;
+    background-color: blanchedalmond;
+    line-height: 2;
+    background-color: rgba(236,206,67,0.8);
+	color: #000000;
+	display:block;
+	height: 30%;
+	width:60%;
+	font-size: 50%;
+	text-align: left;
+	margin: 0.5%;
+    padding: 1%;
+    position:fixed;
+    top:40%;
+    left: 20%;
+
+
+
+}

@@ -1,0 +1,69 @@
+body
+{
+	background-color: black;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: auto;
+    opacity: 0.85;
+}
+#loader
+{
+	z-index: 1;
+}
+#mydiv
+{
+	background-color:(1,1,1,0.8);
+	height: 100rem;
+	width: 100rem;
+}
+#myheader
+{
+	background-color: rgba(1,1,1,0.5);
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: 30%;
+	line-height: 2;
+}
+#m_button1 {
+	display: inline-block;
+    position: relative;
+    margin: 0;
+    border-color: #B35A00;
+    background-color: #f78c1b;
+    background: linear-gradient(to bottom, #FEB13A, #ed4e19);
+    color: #552F00;
+   	width: 100%;
+   	height: 100%;
+    border-radius: 5%;
+    font-size: 18px;
+    padding: 15px 1em;
+    text-transform: uppercase;
+    line-height: 1;
+    font-stretch: condensed;
+    text-align: center;
+    vertical-align: middle;
+}
+#m_button2 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    border-color: #B35A00;
+    background-color: #f78c1b;
+    background: linear-gradient(to bottom, #FEB13A, #ed4e19);
+    color: #552F00;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    font-size: 18px;
+    padding: 15px 1em;
+    text-transform: uppercase;
+    line-height: 1;
+    font-stretch: condensed;
+    text-align: center;
+    vertical-align: middle;
+}
